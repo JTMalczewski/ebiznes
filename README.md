@@ -28,3 +28,16 @@ Należy stworzyć aplikację na frameworku Play w Scali 2.
 
 :x: 5.0 Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
 
+**Zadanie 3** Kotlin
+
+:white_check_mark: 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord
+
+:x: 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota)
+
+:x: 4.0 Zwróci listę kategorii na określone żądanie użytkownika
+
+:x: 4.5 Zwróci listę produktów wg żądanej kategorii
+
+:x: 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack, Messenfer, Webex, Skype, Discrod
+
+Kod: [Zadanie 3](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_3/ktor-discord/src/main/kotlin/com/example/DiscordWebhook.kt)
