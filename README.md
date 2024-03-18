@@ -30,7 +30,7 @@ Należy stworzyć aplikację na frameworku Play w Scali 2.
 
 **Zadanie 3** Kotlin
 
-:white_check_mark: 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord
+:white_check_mark: 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/6bae6e085ef9061eb5c976ab83fd030fb9d3a599)
 
 :x: 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota)
 
