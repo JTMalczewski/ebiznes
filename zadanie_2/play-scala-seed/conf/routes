@@ -1,0 +1,6 @@
+GET     /prod                       controllers.ProductsController.getAll
+GET     /prod/:itemId               controllers.ProductsController.getById(itemId: Long)
+PUT     /prod/add/:itemId           controllers.ProductsController.addToBasketById(itemId: Long)
+PUT     /prod/remove/:itemId        controllers.ProductsController.removeFromBasketById(itemId: Long)
+DELETE  /prod/delete/:itemId        controllers.ProductsController.deleteById(itemId: Long)
+POST    /prod/create                controllers.ProductsController.addNewItem()

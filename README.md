@@ -12,17 +12,18 @@ Należy stworzyć obraz Dockerowy na bazie debianowej dystrybuji (bez zainstalow
 
 :x: 5.0 dodać konfigurację docker-compose
 
-Kod: [Zadanie 1](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_1)
+Kod: [Zadanie 1](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_1) \
 DockerHub: [ubuntu2204_py38_jdk8_kot_grasql](https://hub.docker.com/repository/docker/jtmalczewski/ubuntu2204_py38_jdk8_kot_grasql/general)
+
 **Zadanie 2** Scala
 
 Należy stworzyć aplikację na frameworku Play w Scali 2.
 
-:x: 3.0 Należy stworzyć kontroler do Produktów
+:white_check_mark: 3.0 Należy stworzyć kontroler do Produktów
 
-:x: 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane pobierane z listy
+:white_check_markx: 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane pobierane z listy
 
-:x: 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy zgodnie z CRUD
+:white_check_mark: 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy zgodnie z CRUD
 
 :x: 4.5 Należy aplikację uruchomić na dockerze (stworzyć obraz) oraz dodać skrypt uruchamiający aplikację via ngrok
 
