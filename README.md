@@ -13,7 +13,7 @@ Należy stworzyć obraz Dockerowy na bazie debianowej dystrybuji (bez zainstalow
 :x: 5.0 dodać konfigurację docker-compose
 
 Kod: [Zadanie 1](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_1)
-
+DockerHub: [ubuntu2204_py38_jdk8_kot_grasql](https://hub.docker.com/repository/docker/jtmalczewski/ubuntu2204_py38_jdk8_kot_grasql/general)
 **Zadanie 2** Scala
 
 Należy stworzyć aplikację na frameworku Play w Scali 2.
