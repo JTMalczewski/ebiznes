@@ -1,0 +1,13 @@
+.Layout {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: black;
+    height: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: wheat;
+    margin-right: 1rem;
+}
