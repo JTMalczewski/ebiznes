@@ -35,17 +35,17 @@ export default function Basket() {
                     <tbody>
                         {prod.filter(product => product.bucket > 0).map(product => (
                             <tr key={product.name}>
-                                <td className='basket__head__td'>{product.name}</td>
-                                <td className='basket__head__td__center'>{product.bucket}</td>
-                                <td className='basket__head__td__center'>{product.price}</td>
-                                <td className='basket__head__td__center'>{product.price * product.bucket}</td>
+                                <td id={product.name + '_name'} className='basket__head__td'>{product.name}</td>
+                                <td id={product.name + '_bucked'} className='basket__head__td__center'>{product.bucket}</td>
+                                <td id={product.name + '_price'} className='basket__head__td__center'>{product.price}</td>
+                                <td id={product.name + '_sum_price'} className='basket__head__td__center'>{product.price * product.bucket}</td>
                             </tr>
                         ))}
                     </tbody>
                 </table>
                 <div>
                     <Link to="/products" className="basket__link">Back to shopping</Link>
-                    <Link to="/pay" className="basket__link">Pay for the products</Link>
+                    <Link id="link_to_payment" to="/pay" className="basket__link">Pay for the products</Link>
                 </div>
             </div>
         </div>

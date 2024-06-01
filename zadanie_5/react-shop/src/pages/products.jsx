@@ -31,10 +31,11 @@ export default function Products() {
                     <tbody>
                         {prod.map(product => (
                             <tr key={product.name}>
-                                <td className='products__head__td'>{product.name}</td>
-                                <td className='products__head__td__center'>{product.price}</td>
-                                <td className='products__head__td__center'>
+                                <td id={product.name + '_name'} className='products__head__td'>{product.name}</td>
+                                <td id={product.name + '_price'} className='products__head__td__center'>{product.price}</td>
+                                <td id={product.name + '_buttons'} className='products__head__td__center'>
                                     <button
+                                       id={product.name + '_buttons_add'}
                                         onClick={() => {
                                             setProd(prev => prev.map(prod => {
                                                 if (prod.name === product.name) {
@@ -48,6 +49,7 @@ export default function Products() {
                                         +
                                     </button>
                                     <button
+                                        id={product.name + '_buttons_rem'}
                                         onClick={() => {
                                             setProd(prev => prev.map(prod => {
                                                 if (prod.name === product.name) {
@@ -62,12 +64,12 @@ export default function Products() {
                                     </button>
 
                                 </td>
-                                <td className='products__head__td__center'>{product.bucket}</td>
+                                <td  id={product.name + '_bucket'} cclassName='products__head__td__center'>{product.bucket}</td>
                             </tr>
                         ))}
                     </tbody>
                 </table>
-                <Link to="/basket" className="products__link">Go to basket</Link>
+                <Link id={'link_to_basket'} to="/basket" className="products__link">Go to basket</Link>
             </div>
         </div>
     )

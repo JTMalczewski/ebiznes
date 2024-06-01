@@ -20,11 +20,11 @@ export default function PayPage() {
     }, []);
 
     function buy() {
-            axios.post(baseURL + "/buy", sum)
-                .then((response) => {
-                    console.log(response.data)
-                }
-                )
+        axios.post(baseURL + "/buy", sum)
+            .then((response) => {
+                console.log(response.data)
+            }
+            )
     }
 
     return (
@@ -34,7 +34,7 @@ export default function PayPage() {
                 <div>
                     {prod.filter(product => product.bucket > 0).map(product => (
                         <h4 key={product.name}>
-                            {product.name} x {product.bucket}
+                            {product.name} x <span id={`${product.name}_quantity`}> {product.bucket} </span>
                         </h4>
                     ))}
                 </div>
