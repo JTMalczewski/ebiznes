@@ -131,7 +131,7 @@ Prawidłowa komunikacja: react-sewer-dostawca-serwer(via return uri)-react.
 
 :x: 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
 
-Kod: [Zadanie 6](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_8)
+Kod: [Zadanie 8](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_8)
 
 **Zadanie 9 ChatGPT bot**
 
@@ -139,15 +139,17 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 
 Dla studentów, którzy nie chcą lub nie mogą korzystać z GPT, zamiast GPT należy wykorzystać LLAMA2 za pomocą narzędzi do wykorzystania LLM lokalnie: https://ollama.com/download/windows
 
-:x: 3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT do usługi chat
+:white_check_mark:  3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT do usługi chat [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/dd41e0a653d69d2ba519f2c7e5b7d7f7b25cc469)
 
-:x: 3.5 należy stworzyć interfejs frontowy dla użytkownika, który komunikuje się z serwisem; odpowiedzi powinny być wysyałen do frontendowego interfejsu
+:white_check_mark:  3.5 należy stworzyć interfejs frontowy dla użytkownika, który komunikuje się z serwisem; odpowiedzi powinny być wysyałen do frontendowego interfejsu [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/dd41e0a653d69d2ba519f2c7e5b7d7f7b25cc469)
 
 :x: 4.0 stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
 
 :x: 4.5 filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
 
 :x: 5.0 filtrowanie odpowiedzi po sentymencie
+
+Kod: [Zadanie 9](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_9)
 
 
 **Zadanie 10 Chmura/CI**
