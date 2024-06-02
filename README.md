@@ -98,29 +98,22 @@ Kod: [Zadanie 6](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_6)
 
 Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa repozytoria) do Sonara w wersji chmurowej (https://sonarcloud.io/). Należy poprawić aplikacje uzyskując 0 bugów, 0 zapaszków, 0 podatności, 0 błędów bezpieczeństwa. Dodatkowo należy dodać widżety sonarowe do README w repozytorium dane projektu z wynikami.
 
-3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w hookach gita
+:white_check_mark: 3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w hookach gita
 
-3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji serwerowej)
+:white_check_mark: 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji serwerowej)
 
-4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej)
+:white_check_mark: 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej)
 
-4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
+:white_check_mark: 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
 
-5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
+:white_check_mark: 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
 
 https://golangci-lint.run/
 https://github.com/pinterest/ktlint
 https://scalameta.org/scalafmt/docs/installation.html
 
-
-Studia dzienne:
-
-Termin gr. 1: 15.05
-
-Termin gr. 2: 6.05
-
-Studia zaoczne: 
-
+[Front repo](https://github.com/JTMalczewski/ReactShop)
+[Backend repo](https://github.com/JTMalczewski/ReactShopBackend)
 
 **Zadanie 8 Oauth2**
 
@@ -128,24 +121,17 @@ Należy skonfigurować klienta Oauth2 (4.0). Dane o użytkowniku wraz z tokenem 
 
 Prawidłowa komunikacja: react-sewer-dostawca-serwer(via return uri)-react.
 
-3.0 logowanie przez aplikację serwerową (bez Oauth2)
+:white_check_mark: 3.0 logowanie przez aplikację serwerową (bez Oauth2) [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/fdea3af046ece0e3b539b961bd273a4d9a0964d7)
 
-3.5 rejestracja przez aplikację serwerową (bez Oauth2)
+:white_check_mark:  3.5 rejestracja przez aplikację serwerową (bez Oauth2) [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/fdea3af046ece0e3b539b961bd273a4d9a0964d7)
 
-4.0 logowanie via Google OAuth2
+:x: 4.0 logowanie via Google OAuth2
 
-4.5 logowanie via Facebook lub Github OAuth2
+:x: 4.5 logowanie via Facebook lub Github OAuth2
 
-5.0 zapisywanie danych logowania OAuth2 po stronie serwera
+:x: 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
 
-Termin studia dzienne:
-
-gr. 1: 21.05
-
-gr. 2: 11.05
-
-Termin studia zaoczne: 
-
+Kod: [Zadanie 6](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_8)
 
 **Zadanie 9 ChatGPT bot**
 
@@ -153,35 +139,27 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 
 Dla studentów, którzy nie chcą lub nie mogą korzystać z GPT, zamiast GPT należy wykorzystać LLAMA2 za pomocą narzędzi do wykorzystania LLM lokalnie: https://ollama.com/download/windows
 
-3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT do usługi chat
+:x: 3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT do usługi chat
 
-3.5 należy stworzyć interfejs frontowy dla użytkownika, który komunikuje się z serwisem; odpowiedzi powinny być wysyałen do frontendowego interfejsu
+:x: 3.5 należy stworzyć interfejs frontowy dla użytkownika, który komunikuje się z serwisem; odpowiedzi powinny być wysyałen do frontendowego interfejsu
 
-4.0 stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
+:x: 4.0 stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
 
-4.5 filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
+:x: 4.5 filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
 
-5.0 filtrowanie odpowiedzi po sentymencie
-
-Termin studia dzienne
-
-gr. 1:
-
-gr. 2: 18.05
-
-Termin studia zaoczne: 
+:x: 5.0 filtrowanie odpowiedzi po sentymencie
 
 
 **Zadanie 10 Chmura/CI**
 
 Należy wykorzystać GitHub Actions (dopuszczalne są inne rozwiązania CI) oraz chmurę Azure (dopuszczalne inne chmury), aby zbudować oraz zdeployować aplikację kliencką (frontend) oraz serwerową (backend) jako osobne dwie aplikacje. Należy do tego wykorzystać obrazy dockerowe, a aplikacje powinny działać na kontenerach. Dopuszczalne jest zbudowanie wcześniej aplikacji (jar package) oraz budowanie aplikacji via Github Actions. Należy zwrócić uwagę na zasoby dostępne na chmurze.
 
-3.0 Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
+:x: 3.0 Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
 
-3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania aplikacji (np. via fatjar)
+:x: 3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania aplikacji (np. via fatjar)
 
-4.0 Dodać notyfikację mailową o zbudowaniu aplikacji
+:x: 4.0 Dodać notyfikację mailową o zbudowaniu aplikacji
 
-4.5 Dodać krok z deploymentem aplikacji serwerowej oraz klienckiej na chmurę
+:x: 4.5 Dodać krok z deploymentem aplikacji serwerowej oraz klienckiej na chmurę
 
-5.0 Dodać uruchomienie regresyjnych testów automatycznych (funkcjonalnych) jako krok w Actions
+:x: 5.0 Dodać uruchomienie regresyjnych testów automatycznych (funkcjonalnych) jako krok w Actions
